@@ -3,21 +3,25 @@
 
     Building an Exercise Routine
 
-    You are going to build a program that can help you keep track of your exercise routine.
+    You are going to build a program that can help you 
+    keep track of your exercise routine.
 
     Your routine can be represented by an array of each activity.
-    let routine = ["situp", "situp", "situp", "situp", "pushup", "pushup", "pushup", "pushup"];
+    let routine = ["situp", "situp", "situp", "situp", "pushup", 
+    "pushup", "pushup", "pushup"];
 
     Use a while loop to complete every exercise.
 */
 
 /*
     Note, To run the tests for an exercise run the entire file!
-    Do not just highlight a section and try to run it, because the tests will
+    Do not just highlight a section and try to run it, because 
+    the tests will
     throw an exception 
     ReferenceError: compareArray is not defined
 
-    If you see that exception, make sure you deselect any text and then click Run Code again
+    If you see that exception, make sure you deselect any text 
+    and then click Run Code again
 
     Remember to Save the file before you click Run Code!
 */
@@ -35,20 +39,28 @@
     exercise = "situp";
     numRepetitions = 4;
 
-    You should add four situps to your routine, resulting in a routine like this:
+    You should add four situps to your routine, resulting in a 
+    routine like this:
     routine = ["situp", "situp", "situp", "situp"];
 
-    You do not need to return anything, just modify the routine array.
+    You do not need to return anything, just modify the 
+    routine array.
 
 */
 
 function addExerciseToRoutine(routine, exercise, numRepetitions) {
-  // Your Code Here!
+  let index = 0;
+
+  while (index < numRepetitions) {
+    routine.push(exercise);
+    index++;
+  }
 }
 
 /* 
    -------TESTS---------------------------------------------------------------
-   Run these commands to make sure you did it right. They should all be true.
+   Run these commands to make sure you did it right. 
+   They should all be true.
 */
 console.log("-----Tests for Exercise One-----");
 let routineOne = [];
@@ -95,9 +107,16 @@ function doAction(action) {
 /* 
    -------START OF YOUR CODE----------------------------------------------------
 */
+// Create the performRoutine function.
+// This function should go through every exercise in a routine and call
+// doAction(exercise);
 
 function performRoutine(routine) {
-  // Your Code Here!
+  let i = 0;
+  while (i < routine) {
+    action.push(routineTwo);
+    i++;
+  }
 }
 
 /* 
@@ -147,7 +166,9 @@ console.log(compareArray(routineTwo, actionsPerformed));
 
 function countRepsOfActionInRoutine(routine, action) {
   let count = 0;
-  // Your Code Here!
+  while (count < 1);
+  routineThree < 4;
+  count++;
   return count;
 }
 
@@ -226,7 +247,9 @@ console.log(countRepsOfActionInRoutine(routineThree, "crunch") == 0);
 */
 
 function removeExerciseFromRoutine(routine, exercise) {
-  // Your Code Here!
+  let routineFour = 0;
+  routineFour(0);
+  while (routine < 0) routineFour += 1;
 }
 
 /*
