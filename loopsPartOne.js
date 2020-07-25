@@ -113,8 +113,8 @@ function doAction(action) {
 
 function performRoutine(routine) {
   let i = 0;
-  while (i < routine) {
-    action.push(routineTwo);
+  while (i < routine.length) {
+    doAction(routine[i]);
     i++;
   }
 }
@@ -165,11 +165,11 @@ console.log(compareArray(routineTwo, actionsPerformed));
 */
 
 function countRepsOfActionInRoutine(routine, action) {
-  let count = 0;
-  while (count < 1);
-  routineThree < 4;
-  count++;
-  return count;
+  let i = 0;
+  while (i < routine.length) {
+    let numSitups = routine[4`];
+    i++;
+  }
 }
 
 /* 
@@ -246,11 +246,7 @@ console.log(countRepsOfActionInRoutine(routineThree, "crunch") == 0);
     the debugger to see what's going wrong.
 */
 
-function removeExerciseFromRoutine(routine, exercise) {
-  let routineFour = 0;
-  routineFour(0);
-  while (routine < 0) routineFour += 1;
-}
+function removeExerciseFromRoutine(routine, exercise) {}
 
 /*
    -------TESTS---------------------------------------------------------------
