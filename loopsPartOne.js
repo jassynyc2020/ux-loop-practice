@@ -216,35 +216,35 @@ routineThree = [
 ];
 console.log(countRepsOfActionInRoutine(routineThree, "crunch") == 0);
 
-/* ---------------------------------------------------------------------------
-    Exercise Four
+// /* ---------------------------------------------------------------------------
+//     Exercise Four
 
-    Remove an exercise from your routine
+//     Remove an exercise from your routine
 
-    Now you have an exercise routine, but you don't really like doing some of the 
-    exercises in it.
+//     Now you have an exercise routine, but you don't really like doing some of the 
+//     exercises in it.
 
-    Complete the function removeExerciseFromRoutine
+//     Complete the function removeExerciseFromRoutine
 
-    Given an exercise, it should remove all instances of that exercise from the routine.
+//     Given an exercise, it should remove all instances of that exercise from the routine.
 
-    The function should not return anything, you should modify the existing routine array.
+//     The function should not return anything, you should modify the existing routine array.
 
-    For example:
+//     For example:
 
-    let routine = ["situp", "pushup", "situp", "pushup", "pullup", "pullup", "pushup", "pushup"];
-    removeExerciseFromRoutine(routine, "pushup");
+//     let routine = ["situp", "pushup", "situp", "pushup", "pullup", "pullup", "pushup", "pushup"];
+//     removeExerciseFromRoutine(routine, "pushup");
 
-    now routine is equal to ["situp", "situp", "pullup", "pullup"];
+//     now routine is equal to ["situp", "situp", "pullup", "pullup"];
 
-    Hint: Use the array.splice() method to remove an item from the item.
-    https://www.w3schools.com/jsref/jsref_splice.asp
+//     Hint: Use the array.splice() method to remove an item from the item.
+//     https://www.w3schools.com/jsref/jsref_splice.asp
 
-    Hint2: If you remove an element from the array, the length just got shorter!
-    What does this mean for your current index? What does that mean for your loop?
-    If your code isn't working, make sure to walk through it with
-    the debugger to see what's going wrong.
-*/
+//     Hint2: If you remove an element from the array, the length just got shorter!
+//     What does this mean for your current index? What does that mean for your loop?
+//     If your code isn't working, make sure to walk through it with
+//     the debugger to see what's going wrong.
+// */
 
 function removeExerciseFromRoutine(routine, exercise) {}
 
